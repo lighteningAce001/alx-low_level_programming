@@ -13,10 +13,10 @@ int b;
 long int fl;
 long long int lli;
 float db;
-printf("The size of a char is : %lu byte(s)\n", sizeof(a));
-printf("The size of an integer is : %lu byte(s)\n", sizeof(b));
-printf("The size of a long int is : %lu byte(s)\n", sizeof(fl));
-printf("The size of a long long int is : %lu byte(s)\n", sizeof(lli));
-printf("The size of a  float  is : %lu byte(s)\n", sizeof(db));
+printf("Size of a char: %lu byte(s)\n", sizeof(a));
+printf("Size of an integer: %lu byte(s)\n", sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", sizeof(fl));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(lli));
+printf("Size of a  float: %lu byte(s)\n", sizeof(db));
 return (0);
 }
