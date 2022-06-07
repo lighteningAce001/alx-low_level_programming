@@ -14,9 +14,9 @@ long int fl;
 long long int lli;
 float db;
 printf("Size of a char: %lu byte(s)\n", sizeof(a));
-printf("Size of an integer: %lu byte(s)\n", sizeof(b));
+printf("Size of an int: %lu byte(s)\n", sizeof(b));
 printf("Size of a long int: %lu byte(s)\n", sizeof(fl));
 printf("Size of a long long int: %lu byte(s)\n", sizeof(lli));
-printf("Size of a  float: %lu byte(s)\n", sizeof(db));
+printf("Size of a float: %lu byte(s)\n", sizeof(db));
 return (0);
 }
