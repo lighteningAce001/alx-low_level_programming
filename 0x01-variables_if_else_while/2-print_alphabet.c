@@ -10,6 +10,6 @@ for (utc = 'a'; utc <= 'z'; utc++)
 {
 putchar(utc);
 }
-putchar('/n');
+putchar('\n');
 return (0);
 }
